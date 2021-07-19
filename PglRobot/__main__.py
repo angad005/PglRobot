@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="OWNER ⚡️",
-                                url="t.me/I_em_spoderman",
+                                url="t.me/tsf_rockstar",
                             ),
                         ],
                     ]
