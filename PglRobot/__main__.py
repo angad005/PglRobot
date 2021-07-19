@@ -77,7 +77,7 @@ Hi {}, my name is {}!
 I am a  Powerfull  group management bot. You can find my list of available commands with /help.
 """
 G_START_TEXT = """
-Hello PglRobot Is In The Chat.
+Hello Tsf robot Is In The Chat.
 Uptime - {}!
 """
 
@@ -101,14 +101,11 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-PglRobot_IMG = "https://telegra.ph/file/f1d7b30b05ba9f0dbf4e5.jpg"
+PglRobot_IMG = "https://telegra.ph/file/562e49da0f074c4b8e18f.jpg"
 
-PglRobotG_IMG = "https://telegra.ph/file/e8881931bc000c75e8f13.jpg"
+PglRobotG_IMG = "https://telegra.ph/file/562e49da0f074c4b8e18f.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting [Gaurav Verma](https://t.me/iisgaurav).
- Using [PayPal](paypal.me/iisgaurav).
- Those who cannot provide monetary support are welcome to help us develop the bot at @VegaCodes.
+DONATE_STRING = """no need sir 🙂
  """
 
 IMPORTED = {}
@@ -235,17 +232,17 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="SUPPORT ⚡️",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/tsf_gang",
                             ),
                             InlineKeyboardButton(
                                 text="UPDATES ⚡️",
-                                url="https://t.me/VCUpdates",
+                                url="https://t.me/tsf_gang",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="SOURCE CODE ⚡️",
-                                url="https://github.com/iisgaurav/PglRobot",
+                                url="https://github.com/angad005/PglRobot",
                             ),
                         ],
                     ]
@@ -580,7 +577,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1100735944 and DONATION_LINK:
+        if OWNER_ID != 1842979991 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -629,7 +626,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@{SUPPORT_CHAT}", "PglRobot now ready to work!"
+                f"@{SUPPORT_CHAT}", "Tsf robot now ready to work!"
             )
         except Unauthorized:
             LOGGER.warning(
