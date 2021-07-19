@@ -241,8 +241,8 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="SOURCE CODE ⚡️",
-                                url="https://github.com/angad005/PglRobot",
+                                text="OWNER ⚡️",
+                                url="t.me/I_em_spoderman",
                             ),
                         ],
                     ]
