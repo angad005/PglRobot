@@ -83,7 +83,7 @@ Uptime - {}!
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Heroine For Fun and help admins to manage their groups! Have a look at the following for an idea of some of \
+I'm a robot For Fun and help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
  • /help: PM's you this message.
@@ -223,7 +223,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ADD ME IN YOUR GROUP ⚡️",
+                                text="ADD ME IN YOUR GROUP 🔱",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -231,11 +231,11 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="SUPPORT ⚡️",
+                                text="SUPPORT ⚜",
                                 url=f"https://t.me/tsf_gang",
                             ),
                             InlineKeyboardButton(
-                                text="UPDATES ⚡️",
+                                text="UPDATES ♻️",
                                 url="https://t.me/tsf_gang",
                             ),
                         ],
