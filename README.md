@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/06129d917642f323f77a3.jpg">
+  <img src="https://telegra.ph/file/562e49da0f074c4b8e18f.jpg">
 </p>
 
-# PglRobot 
+# TSF robot 
 
 <p align="center">
 - x -|│  “	Just some code who is a bot for fun. ”  │| - x -
