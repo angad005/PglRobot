@@ -101,9 +101,9 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-PglRobot_IMG = "https://telegra.ph/file/562e49da0f074c4b8e18f.jpg"
+PglRobot_IMG = "https://telegra.ph/file/5a7945894898e8cee4a26.jpg"
 
-PglRobotG_IMG = "https://telegra.ph/file/562e49da0f074c4b8e18f.jpg"
+PglRobotG_IMG = "https://telegra.ph/file/5a7945894898e8cee4a26.jpg"
 
 DONATE_STRING = """no need sir 🙂
  """
