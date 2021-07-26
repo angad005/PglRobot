@@ -73,14 +73,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-_Hello_ *{}*
-_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!!_
-_Maintained by_ [{}](tg://user?id={})
+_Hello_ *TSF BOT*
+_My name is_ *TSF BOT *\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!!_
+_Maintained by_ [@I_em_spoderman](tg://user?id={})
 """
 
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is *TSF BOT*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
@@ -123,7 +123,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/511ad504656e712b88235.jpg"
+    img = "https://telegra.ph/file/5a7945894898e8cee4a26.jpg"
 else:
   img = START_IMG    
     
