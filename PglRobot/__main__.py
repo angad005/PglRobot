@@ -82,7 +82,7 @@ Uptime - {}!
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is *{}*
 I'm a Heroine For Fun and help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
